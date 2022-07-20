@@ -36,7 +36,7 @@ function showAllPokemon() {
 showAllPokemon();
 
 function showSearch() {
-  // $("#pokemon-list").html("");
+  $("#pokemon-list").html("");
   let search = $("#search-input").val();
 
   $.ajax({
