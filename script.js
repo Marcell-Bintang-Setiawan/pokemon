@@ -39,6 +39,7 @@ function showSearch() {
   $("#pokemon-list").html("");
   let search = $("#search-input").val();
 
+  
   $.ajax({
     url: "https://api.pikaserve.xyz/pokemon/" + search + "",
     type: "get",
